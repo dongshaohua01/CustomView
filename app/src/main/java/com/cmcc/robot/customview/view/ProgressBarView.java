@@ -168,8 +168,8 @@ public class ProgressBarView extends View {
         //画左边圆
         float radius = view_background_height / 2;
         canvas.drawCircle(radius,radius,radius,backgroundPaint);
-        RectF mRectF = new RectF( radius,radius,view_background_width,view_background_height);
-     //   canvas.drawRect(mRectF,-180,-180,backgroundPaint);
+        /*RectF mRectF = new RectF( radius,0,radius,radius * 2);
+        canvas.drawArc(mRectF,270f,90f,true,backgroundPaint);*/
        //画左边矩形
         RectF r = new RectF();
         //左边进度条坐标点
