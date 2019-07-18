@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="main_yellow">#FFDB14</color>
+    <!--透明度为10%的分割线颜色-->
+    <color name="dialog_split_line_color">#10000000</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#CCCCCC</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGreen">#009900</color>
+    <color name="batterylevellhight">#00FF00</color>
+    <color name="batterylevellow">#FF0000</color>
+    <color name="login_tv_color">#169bd5</color>
+    <color name="dialog_progress_bg">#f4f4f4</color>
+
+    <color name="main_tab_text_color">#a6a6a6</color>
+    <color name="main_tab_bg_color">#FFFDF5</color>
+    <color name="common_title_text_color">#333333</color>
+
+    <color name="mine_divider_color">#E1E1E1</color>
+    <color name="mine_robot_manage_divider_color">#EEEEEE</color>
+    <color name="mine_robot_text_color">#666666</color>
+    <color name="mine_complete_color">#009CFF</color>
+    <!--透明度为20%的背景颜色-->
+    <color name="rob_playing_bg_color">#20000000</color>
+    <color name="rob_function_bg_color">#D0D0D0</color>
+    <color name="connect_WiFi_hint_color">#999999</color>
+    <color name="connect_WiFi_btn_shadow_color">#40A7A7A7</color>
+    <color name="connect_rob_iv_bg_color">#F9F9F9</color>
+    <color name="connect_rob_btn_color">#986633</color>
+    <color name="common_dialog_bg_color">#60000000</color>
+
+
+    <color name="home_bg">#EEEEEE</color>
+    <color name="color_text_darkgray">#333333</color>
+    <color name="color_text_gray">#666666</color>
+    <color name="color_text_999">#999999</color>
+    <color name="color_member_item_bg">#ADD8FF</color>
+
+    <color name="title_bg_transparent">#00000000</color>
+    <color name="color_login_but_click">#ecc802</color>
+    <color name="color_login_but_unable">#E3E3E3</color>
+    <color name="color_register_agreement_text">#F24444</color>
+
+    <color name="grow_read_listen_count_color">#FD6A00</color>
+    <color name="grow_read_count_text_color">#FF343E</color>
+    <color name="grow_round_inner_color">#FEE028</color>
+    <color name="grow_round_text_color">#986633</color>
+    <color name="grow_round_progress_color">#FFE773</color>
+    <color name="grow_round_habit_text_color">#F1F1F1</color>
+
+    <color name="mail_white_list_main">#fffd6a00</color>
+
+    <color name="mine_contacts_but_enable_color">#ffe3e3e3</color>
+    <color name="mine_help_feedback_phone_color">#009CFF</color>
+    <color name="timetimepicker_default_text_color">#666666</color>
+    <color name="timepicker_dialog_bg">#80000000</color>
+    <color name="timepicker_dialog_btn">#009CFF</color>
+    <color name="timepicker_line">#E1E1E1</color>
+</resources>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProfitProgerssBar">
+        <attr name="progress_backg_color" format="color"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_size" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="startAngle" format="integer"></attr>
+        <attr name="radiusb" format="dimension"></attr>
+        <attr name="ringWidth" format="dimension"></attr>
+        <attr name="centerColor" format="color"></attr>
+        <attr name="ringColor" format="color"></attr>
+        <attr name="progressColor" format="color"></attr>
+        <attr name="topTextSize" format="dimension"></attr>
+        <attr name="bottomTextSize" format="dimension"></attr>
+        <attr name="topTextColor" format="color"></attr>
+        <attr name="bottomTextColor" format="color"></attr>
+        <attr name="textColor"></attr>
+        <attr name="isTextDisplay" format="boolean"></attr>
+        <attr name="ringOutWidth" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="RulerView">
+        <attr name="rulerHeight" format="integer"/>
+        <attr name="rulerWidth" format="integer"/>
+        <attr name="distance" format="integer"/>
+        <attr name="cmHeight" format="integer"/>
+        <attr name="mmHeight" format="integer"/>
+        <attr name="mHeight" format="integer"/>
+        <attr name="aLineColor" format="color"/>
+        <attr name="lrDistance" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="PayPsdInputView">
+        <attr name="maxCount" format="integer"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="bottomLineColor" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="divideLineWidth" format="dimension"/>
+        <attr name="divideLineColor" format="color"/>
+        <attr name="psdType" format="integer"/>
+        <attr name="rectAngle" format="dimension"/>
+        <attr name="focusedColor" format="color"/>
+    </declare-styleable>
+</resources>

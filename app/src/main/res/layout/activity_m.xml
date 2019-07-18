@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.cmcc.robot.customview.view.ProgressBarView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/pro"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="@dimen/dp_20"
+        />
+    <com.cmcc.robot.customview.view.HabitCircularView
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        app:layout_constraintTop_toBottomOf="@+id/pro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:radiusb="65.5dp"
+        app:ringWidth="13dp"
+        app:startAngle="-90"
+        app:centerColor="@color/colorWhite"
+        app:ringColor="@color/mine_robot_manage_divider_color"
+        app:progressColor="@color/grow_round_progress_color"
+        app:topTextColor="@color/grow_round_text_color"
+        app:bottomTextColor="@color/mine_robot_text_color"
+        app:topTextSize="36sp"
+        app:bottomTextSize="14sp"
+        app:isTextDisplay="true"
+        android:layout_marginTop="@dimen/dp_20"
+        android:id="@+id/round_pro"/>
+    <com.cmcc.robot.customview.view.RulerView
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toBottomOf="@+id/round_pro"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:id="@+id/ruler"/>
+     <com.cmcc.robot.customview.view.ClockView
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:id="@+id/clockview"
+         app:layout_constraintTop_toBottomOf="@+id/ruler"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         android:layout_marginTop="@dimen/dp_20"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_constraintTop_toBottomOf="@+id/clockview"
+         android:layout_marginTop="@dimen/dp_10"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         android:text="输入密码"
+         android:id="@+id/psd"/>
+
+
+</android.support.constraint.ConstraintLayout>
