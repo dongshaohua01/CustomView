@@ -91,10 +91,11 @@ public class DiagonalCircleView extends View {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int width = MeasureSpec.getSize(widthMeasureSpec);
+        int height = MeasureSpec.getSize(heightMeasureSpec);
         radius = width / 2 - circleW / 2;
         //得到圆心的坐标点
-        centerX =getWidth() / 2;
-        centerY =getHeight() / 2;
+        centerX =getX() + width / 2;
+        centerY =getY() + height / 2;
         tickRadiusOffset = radius / 4;
         //对勾的坐标点
         mPoints[0] = centerX - radius / 3;
@@ -154,7 +155,7 @@ public class DiagonalCircleView extends View {
                                scaleCounter = -45;
                            }
                            //增长半径有一个放大的效果
-                           float strokeWidth = scaleCounter > 0 ? radius + circleW : radius;
+                           float strokeWidth = scaleCounter > 0 ? radius + circleW  : radius;
                            canvas.drawCircle(centerX, centerY, strokeWidth, mPaint);
                        }
                   }

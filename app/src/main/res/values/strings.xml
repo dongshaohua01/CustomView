@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CustomView</string>
     <string name="imgview">底部</string>
+    <string name="title_activity_choice">ChoiceActivity</string>
 </resources>

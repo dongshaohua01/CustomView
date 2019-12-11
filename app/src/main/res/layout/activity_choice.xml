@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <com.cmcc.robot.customview.view.RoundImageViewByXfermode
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/img"
+        android:src="@drawable/ic_launcher_background"
+        app:type="circle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <com.cmcc.robot.customview.view.PickerScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/pick"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/img"
+        android:layout_marginTop="@dimen/dp_10"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
